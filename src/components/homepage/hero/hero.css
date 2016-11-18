@@ -1,0 +1,36 @@
+div.hero-container {
+    position: absolute;
+    margin-top: 7.8vh;
+    width: 100%;
+    height: 85vh;
+    max-height: 56.25vw;
+    overflow: hidden;
+    display: block;
+}
+
+div.hero-container .hero-image {
+    width: 100%;
+    height: 56.25vw;
+    background-image: url('http://i.imgur.com/DeSPhh4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: relative;
+    top: 0;
+}
+
+div.hero-container .hero-image h2 {
+    position: absolute;
+    font-size: 4em;
+    margin: 1em 0 0 1em;
+    width: 38%;
+}
+
+@media (max-width: 504px){
+    div.hero-container {
+        margin-top: 4.8vh;
+    }
+    div.hero-container .hero-image h2 {
+        font-size: 1.6em;
+        margin: .5em 0 0 .75em;
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "messager",
+  "version": "1.0.0",
+  "description": "messenger app",
+  "main": "server.js",
+  "scripts": {
+    "webpack": "./node_modules/.bin/webpack",
+    "server": "node ./server.js",
+    "start": "npm run webpack && npm run server"
+  },
+  "author": "Tom von Geldern",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "path": "^0.12.7",
+    "webpack": "^1.13.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "jsx-loader": "^0.13.2",
+    "react": "^15.4.0",
+    "react-addons-perf": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "webpack": "^1.13.3"
+  }
+}

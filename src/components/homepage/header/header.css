@@ -1,0 +1,29 @@
+div.header-container {
+    position: absolute;
+    width: 100%;
+    display: block;
+    background-color: #333;
+    height: 8vh;
+    box-shadow: 2px 2px 10px black;
+    -webkit-box-shadow: 2px 2px 10px black;
+    z-index: 5;
+}
+
+div.header-container a img.gitHub {
+    height: 7vh;
+    padding: .5vh;
+}
+
+div.header-container a b {
+    font-size: 1.6em;
+    text-decoration: none;
+    color: #42d4f4;
+    position: absolute;
+    margin: 2.4vh 1.2vh;
+}
+
+@media (max-width: 504px) {
+    div.header-container {
+        height: 5vh;
+    }
+}
