@@ -1,3 +1,6 @@
 @import '../components/homepage/homepage.css';
 @import '../components/homepage/hero/hero.css';
 @import '../components/homepage/header/header.css';
+@import '../components/homepage/userform/userform.css';
+@import '../components/homepage/availableusers/availableusers.css';
+@import '../components/homepage/chat/chat.css';

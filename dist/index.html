@@ -2,13 +2,17 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="main.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script>
+        var NAMESPACE = {};
+    </script>
 </head>
 <body>
-
-    <div id="homepage">
-
-    </div>
-
+    <script>
+        var socket = io();
+    </script>
+    <div id="homepage"></div>
     <script src="main.js"></script>
 </body>
 </html>

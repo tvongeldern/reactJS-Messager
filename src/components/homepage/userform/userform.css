@@ -1,0 +1,47 @@
+div.userform-container {
+    width: 100%;
+    display: block;
+    height: 100px;
+}
+
+
+div.userform-container div.user-form {
+    width: 100%;
+    display: block;
+}
+
+div.userform-container div.user-form div {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+div.userform-container div.user-form label {
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: .8em;
+    display: block;
+}
+
+div.userform-container div.user-form input {
+    width: 36%;
+    font-size: 1.4em;
+    padding: .4em .8em;
+    border: 1px solid black;
+    border-radius: .2em;
+    text-align: center;
+}
+
+div.userform-container div.user-form input:disabled {
+    border-color: #42d4f4;
+}
+
+div.userform-container div.user-form p.signon-response-text {
+    font-size: 1.4em;
+}
+
+@media (max-width: 504px){
+    div.userform-container div.user-form input {
+        width: 80%;
+    }
+}

@@ -1,5 +1,5 @@
 div.header-container {
-    position: absolute;
+    position: relative;
     width: 100%;
     display: block;
     background-color: #333;
@@ -25,5 +25,12 @@ div.header-container a b {
 @media (max-width: 504px) {
     div.header-container {
         height: 5vh;
+    }
+    div.header-container a img.gitHub {
+        height: 4.2vh;
+    }
+    div.header-container a b {
+        font-size: 1em;
+        margin: 1.6vh .8vh;
     }
 }

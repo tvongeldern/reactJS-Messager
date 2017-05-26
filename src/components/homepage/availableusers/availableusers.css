@@ -1,0 +1,43 @@
+div.available-users-container {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 6em 0 0 0;
+}
+
+div.available-users-container ul {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: .2em;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    height: 40vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 5px 0px gray;
+    -webkit-box-shadow: 3px 3px 5px 0px gray;
+}
+
+div.available-users-container ul li.list-title {
+    background-color: #333;
+    color: white;
+    font-size: 2em;
+    padding: .4em 0;
+}
+
+div.available-users-container ul li.online-user {
+    background-color: #42d4f4;
+    color: #333;
+    padding: .4em 0;
+    border-bottom: 1px solid black;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+@media (max-width: 504px) {
+    div.available-users-container ul {
+        width: 84%;
+    }
+}
